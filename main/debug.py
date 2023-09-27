@@ -1,0 +1,13 @@
+"""
+Abigail Boggs
+amboggs@dmacc.edu
+9/20/23
+"""
+
+def print_to_number(number):
+    """Prints to the number value passed in, beginning at 1"""
+    for counter in range(1,number+1):
+        print(counter)
+
+if __name__ == "__main__":
+    print_to_number(5)
